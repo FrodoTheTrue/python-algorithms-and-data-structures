@@ -22,3 +22,13 @@ Fast and helpful examples of python code to write algorithms
 
 Segment tree
 ------------
+
+```python
+class TreeNode:
+    def __init__(self, start, end, sum=0, left=None, right=None):
+        self.start = start
+        self.end = end
+        self.sum = sum
+        self.left = left
+        self.right = right
+```
