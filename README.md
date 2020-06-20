@@ -4,10 +4,11 @@ Fast and helpful examples of python code to write algorithms
 
 ## Table of content
 - [Basics]()
+    - [Sorting](#sorting)
     - [Bit operations](#bit-operations)
     - [Permutations](#permutations)
 - [Data structures]()
-    - [PriorityQueue]()
+    - [Priority queue](#priority-queue)
 - [Algorithms]()
     - [Djkstra algorithm with heap]()
     - [Segment tree](#segment-tree)
@@ -20,7 +21,28 @@ Fast and helpful examples of python code to write algorithms
     - [Sliding window template]()
     - [Union find (disjoint set union)]()
 
+Priority Queue
+-------------
+```python
+from queue import PriorityQueue  
 
+q = PriorityQueue()
+
+# insert into queue
+q.put((2, 'ex1’)) 
+q.put((1, 'ex2’)) 
+
+# remove and return 
+# lowest priority item
+print(q.get()) # (1, 'ex2')
+
+# check queue size
+print('Items in queue :', q.qsize())
+  
+# check if queue is empty
+print('Is queue empty :', q.empty())
+
+```
 Segment tree
 ------------
 
