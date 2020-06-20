@@ -9,7 +9,7 @@ Fast and helpful examples of python code to write algorithms
     - [PriorityQueue]()
 - [Algorithms]()
     - [Djkstra algorithm with heap]()
-    - [Segment tree]()
+    - [Segment tree](#segment-tree)
     - [Trie]()
     - [Binary Search in Python]()
     - [Sieve of Eratosthenes]()
@@ -18,3 +18,7 @@ Fast and helpful examples of python code to write algorithms
     - [Backtracking template]()
     - [Sliding window template]()
     - [Union find (disjoint set union)]()
+
+
+Segment tree
+------------
