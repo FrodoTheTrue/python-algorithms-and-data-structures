@@ -15,5 +15,6 @@ Fast and helpful examples of python code to write algorithms
     - [Sieve of Eratosthenes]()
     - [z-function + substring search]()
     - [Rabin-Karp alrorithm]()
-    - [Backtracking template]
+    - [Backtracking template]()
+    - [Sliding window template]()
     - [Union find (disjoint set union)]()
