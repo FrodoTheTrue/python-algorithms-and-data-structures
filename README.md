@@ -4,7 +4,8 @@ Fast and helpful examples of python code to write algorithms
 
 ## Table of content
 - [Basics]()
-    - [Bit operations]()
+    - [Bit operations](#bit-operations)
+    - [Permutations](#permutations)
 - [Data structures]()
     - [PriorityQueue]()
 - [Algorithms]()
