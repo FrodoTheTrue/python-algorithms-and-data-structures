@@ -11,6 +11,7 @@ Fast and helpful examples of python code to write algorithms
     - [Priority queue](#priority-queue)
     - [Segment tree](#segment-tree)
     - [Trie]()
+    - [Union find (disjoint set union)]()
 - [Algorithms]()
     - [Djkstra algorithm with heap]()
     - [Binary Search in Python]()
@@ -19,7 +20,6 @@ Fast and helpful examples of python code to write algorithms
     - [Rabin-Karp alrorithm]()
     - [Backtracking template]()
     - [Sliding window template]()
-    - [Union find (disjoint set union)]()
 
 Priority Queue
 -------------
