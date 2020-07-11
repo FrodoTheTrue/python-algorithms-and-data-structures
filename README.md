@@ -129,3 +129,37 @@ print(tree.sum_range(0, 3))  # 10
 print(tree.sum_range(1, 4))  # 14
 
 ```
+
+Backtracking template
+-------------
+Generate all subsets:
+Input: nums = `[1,2,3]`
+Output:
+`
+[
+  [3],
+  [1],
+  [2],
+  [1,2,3],
+  [1,3],
+  [2,3],
+  [1,2],
+  []
+]
+`
+
+```python
+def subsets(self, nums: List[int]) -> List[List[int]]:
+    result = []
+
+    def backtracking(current, index):
+        result.append(current)
+
+        for i in range(index, len(nums)): 
+            backtracking(current + [nums[i]], i + 1) # generate next possible subset
+
+    backtracking([], 0) # start generation
+
+    return result
+
+```
