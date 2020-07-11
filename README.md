@@ -197,3 +197,42 @@ def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
 
     return result
 ```
+Sliding window template
+-------------
+Given two strings s1 and s2, write a function to return true if s2 contains the permutation of s1. 
+In other words, one of the first string's permutations is the substring of the second string.
+
+```python
+def checkInclusion(self, s1: str, s2: str) -> bool:
+    d = {}
+    counter = 0
+    
+    # precalculation
+    
+    for s in s1:
+        if s not in d:
+            counter += 1
+            d[s] = 1
+        else:
+            d[s] += 1
+
+    # window is [i - len(s1), i]
+    for i in range(0, len(s2)): # move right border
+        if s2[i] in d:
+            d[s2[i]] -= 1
+
+            if d[s2[i]] == 0:
+                counter -= 1 # special counter for task
+
+
+        if i >= len(s1):
+            if s2[i - len(s1)] in d: # move left border
+                if d[s2[i - len(s1)]] == 0:
+                    counter += 1 
+                d[s2[i - len(s1)]] += 1
+
+        if counter == 0:
+            return True
+
+    return False
+```
