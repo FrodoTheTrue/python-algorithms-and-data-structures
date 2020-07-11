@@ -21,8 +21,8 @@ Fast and helpful examples of python code to write algorithms
     - [Backtracking template]()
     - [Sliding window template]()
 - [Templates]()
-    - [Backtracking template]()
-    - [Sliding window template]()
+    - [Backtracking template](#backtracking-template)
+    - [Sliding window template](#sliding-window-template)
 
 Priority Queue
 -------------
