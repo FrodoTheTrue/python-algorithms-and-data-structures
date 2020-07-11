@@ -132,7 +132,7 @@ print(tree.sum_range(1, 4))  # 14
 
 Backtracking template
 -------------
-Generate all subsets:
+Generate all subsets (without duplicates):
 Input: nums = `[1,2,3]`
 Output:
 `
@@ -162,4 +162,38 @@ def subsets(self, nums: List[int]) -> List[List[int]]:
 
     return result
 
+```
+
+Generate all subsets (with duplicates):
+Input: nums = `[1,2,2]`
+Output:
+`
+[
+  [2],
+  [1],
+  [1,2,2],
+  [2,2],
+  [1,2],
+  []
+]
+`
+
+```python
+def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+    nums.sort()
+
+    result = []
+
+    def backtracking(current, index):
+        result.append(current)
+
+        for i in range(index, len(nums)):
+            if i > index and nums[i] == nums[i - 1]:
+                continue
+
+            backtracking(current + [nums[i]], i + 1)
+
+    backtracking([], 0)
+
+    return result
 ```
