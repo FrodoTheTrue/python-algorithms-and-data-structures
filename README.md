@@ -20,6 +20,9 @@ Fast and helpful examples of python code to write algorithms
     - [Rabin-Karp alrorithm]()
     - [Backtracking template]()
     - [Sliding window template]()
+- [Templates]()
+    - [Backtracking template]()
+    - [Sliding window template]()
 
 Priority Queue
 -------------
