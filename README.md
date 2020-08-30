@@ -15,6 +15,7 @@ Fast and helpful examples of python code to write algorithms
     - [Union find](#union-find)
 - [Algorithms]()
     - [Djkstra algorithm with heap](#djkstra-algorithm-with-heap)
+    - [Hashing in substring search](#hashing-in-substring-search)
     - [Knuth–Morris–Pratt algorithm](#knuth-morris-pratt-algorithm)
     - [Quick select (n-th element)](#quick-select-n-th-element)
     - [Rabin-Karp algorithm](#rabin-karp-algorithm)
